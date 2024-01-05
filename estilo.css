@@ -27,7 +27,7 @@ body{
     padding: 8px;
 }
 .div-header{
-    background-image: url(imagens/new_bg-1.jpg);
+    background-color: black;
     height: 880px;
     background-size: cover;
     overflow: auto;
