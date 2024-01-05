@@ -27,11 +27,10 @@ body{
     padding: 8px;
 }
 .div-header{
-    background-image: url(../projeto_econt/imagens/bg-1.png);
+    background-image: url(/imagens/bg-1.png);
     height: 880px;
     background-size: cover;
     overflow: auto;
-   
 }
 .imagem-principal{
     text-align: center;
@@ -65,7 +64,6 @@ body{
     margin-top:10px;
 }
 .main-coluna-direta{
-
 float: left;
 width:50%;
 height: 550px;
@@ -142,12 +140,10 @@ padding-right: 5px;
 .text-grid{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    text-align: center;
-    
+    text-align: center;  
 }
 .engrenagem{
-    display: inline-block;
-    
+    display: inline-block;  
 }
 .under-text-grid{
     font-size: 18px;
@@ -157,7 +153,6 @@ padding-right: 5px;
 }
 .image-servico-prestado{
     padding: 50px 150px ;
-
 }
 .lista-alternada{
 display: inline-block;
@@ -168,22 +163,15 @@ font-family: Arial, Helvetica, sans-serif;
 font-weight: 500;
 padding: 5px;
 margin-top: 50px;
-
-
 }
 .lista-alternada ul{
     height: 35px;
     overflow: hidden;
-    
 }
 .lista-alternada ul:hover{
     height: 180px;
     transition: 0.5s;
 }
-.lista-alternada li{
-  
-}
-
 .secao-servico-prestados{
     margin-top: 50px;
     background-color: #0f2146;
@@ -201,13 +189,11 @@ margin-top: 50px;
 }
 .primeira-secao-comentarios{
     width: 30%;
-    display: inline-block;
-    
+    display: inline-block;  
 }
 .segunda-secao-comentarios{
     width: 30%;
-    display: inline-block;
-    
+    display: inline-block;  
 }
 .nome-e-funcao{
     position: relative;
@@ -229,13 +215,11 @@ footer{
     text-decoration: none;
     text-transform: none;
     font-size: 20px;
-    text-align: center;
-   
+    text-align: center; 
 }
 .add-footer{
     display: inline-block;
     text-align: center;
-   
     height: 180px;
     width: 300px;
 }
@@ -244,7 +228,7 @@ footer{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
-   font-size: 1em;
+    font-size: 1em;
 }
 .instagraam{
     text-decoration: none;
@@ -257,7 +241,5 @@ footer{
     color: black;
 }
 .remove-marca{
-    
     background-color: white;
-
 }
