@@ -27,21 +27,21 @@ body{
     padding: 8px;
 }
 .div-header{
-    background-image: url(/imagens/bg-1.png);
+    background-image: url(imagens/new_bg-1.jpg);
     height: 880px;
     background-size: cover;
     overflow: auto;
 }
 .imagem-principal{
     text-align: center;
-    color:#ccc;
+    color:#ffffff;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 200px;
     font-size: 90px;
 }
 .texto-imagem-principal{
     text-align: center;
-    color: #ccc ;
+    color: #ffffff ;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 33px;
 }
@@ -86,12 +86,10 @@ padding-right: 5px;
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
-
 }
 .fonte-main-direta-titulo{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
-
 }
 .title-nossos-serviços{
     text-align: center;
@@ -133,8 +131,7 @@ padding-right: 5px;
     
 }
 .geral-div{
-    display: inline-block;
-    
+    display: inline-block; 
     padding-bottom: 50px;
 }
 .text-grid{
