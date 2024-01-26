@@ -32,7 +32,7 @@ body{
 }
 .div-header{
     background-image: url(imagens/bg-1.png);
-    height: 880px;
+    height: 750px;
     background-size: cover;
     overflow: auto;
 }
@@ -40,8 +40,8 @@ body{
     text-align: center;
     color:#ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 200px;
-    font-size: 90px;
+    padding-top: 100px;
+    font-size: 65px;
 }
 .texto-imagem-principal{
     text-align: center;
@@ -102,40 +102,55 @@ body{
 .grid-1{
     background-color:#74c0eb;
     display: inline-block;
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     margin-right: 30px;
     padding:50px;
     text-align: center;
    
 }
 .grid-2{
+    
     display: inline-block;
-    width: 250px;
-    height: 250px;;
+    width: 350px;
+    height: 350px;;
     margin-bottom: 30px;
+    margin-right: 30px;
+    padding:50px;
+    
+    
+}
+.grid-21{
+    background-color:#3e63aa;
+    display: inline-block;
+    width: 350px;
+    height: 350px;;
+    margin-bottom: 30px;
+    margin-right: 30px;
     padding:50px;
     
     
 }
 .grid-31{
-    background-color:#3e63aa;
+
     display: inline-block;
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     margin-right: 30px;
     padding:50px;
     text-align: center;
 }
 .grid-41{
+    background-color:#74c0eb;
     display: inline-block;
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;;
     padding:50px;
     
 }
 .pega-todas-engrenagens{
     display: grid;
+    justify-content: space-around;
     
 }
 .geral-div{
@@ -224,15 +239,15 @@ footer{
     background-color: #0f2146;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    text-transform: none;
     font-size: 20px;
     text-align: center; 
+}
+.info-footer{
+    line-height: 60px;
 }
 .add-footer{
     display: inline-block;
     text-align: center;
-    height: 180px;
     width: 300px;
 }
 
@@ -278,6 +293,10 @@ footer{
     }
     .test1{
         padding-top: 120px;
+    }
+    .botao-contato{
+     font-size: 35px;
+     padding:25px   
     }
 
   }
