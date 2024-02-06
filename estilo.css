@@ -31,23 +31,49 @@ body{
     height: 20px;
 }
 .div-header{
-    background-image: url(imagens/bg-1.png);
-    height: 750px;
-    background-size: cover;
-    overflow: auto;
+    display: block;
+    position: relative;
 }
 .imagem-principal{
+    position: absolute;
+    top: 100px;
     text-align: center;
+    justify-content: center;
     color:#ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 100px;
     font-size: 65px;
 }
+.imagem-slide{
+    max-width: 1682px;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    
+}
 .texto-imagem-principal{
+    position: absolute;
+    top: 450px;
+    left: 70px;
+  
     text-align: center;
+    justify-content: center;
     color: #ffffff ;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 33px;
+}
+.botao-contato-principal{
+    position: absolute;
+    top: 650px;
+    left: 42%;
+    margin-left: -42px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;  
+    text-decoration: none;
+    background-color: #74c0eb;
+    padding:10px;
+    border-radius: 40px;
+    font-weight: 600;   
 }
 .botao-contato{
     color: white;
@@ -115,9 +141,8 @@ body{
     width: 350px;
     height: 350px;;
     margin-bottom: 30px;
-    margin-right: 30px;
+ 
     padding:50px;
-    
     
 }
 .grid-21{
@@ -141,6 +166,14 @@ body{
     text-align: center;
 }
 .grid-41{
+
+    display: inline-block;
+    width: 350px;
+    height: 350px;;
+    padding:50px;
+    
+}
+.grid-51{
     background-color:#74c0eb;
     display: inline-block;
     width: 350px;
@@ -175,9 +208,6 @@ body{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
-}
-.image-servico-prestado{
-
 }
 .lista-alternada{
 display: inline-block;
@@ -234,22 +264,6 @@ margin-top: 50px;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-footer{
-    margin-top: 30px;
-    background-color: #0f2146;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    text-align: center; 
-}
-.info-footer{
-    line-height: 60px;
-}
-.add-footer{
-    display: inline-block;
-    text-align: center;
-    width: 300px;
-}
 
 .insta-contact{
     text-align: center;
@@ -269,6 +283,28 @@ footer{
 }
 .remove-marca{
     background-color: white;
+}
+.informacao_para_contato{
+    display: inline-block;
+    
+}
+form{
+   display: inline-block;
+   position: absolute;
+    padding-top: 180px;
+    padding-left: 150px;
+}
+.info-local{
+    padding-left: 75px;
+}
+footer{
+    background-color: #0f2146;
+    color: #ffffff;
+}
+.footer-Contato{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    padding-left: 50px ;
 }
 @media (max-width: 1000px) {
     .geral-div{
