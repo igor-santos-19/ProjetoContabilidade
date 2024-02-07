@@ -8,6 +8,7 @@
         <meta name="description" content="lista de documentos">
         <meta name="keywords" content="html5, tecnologia">
         <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/128276c18a.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="estilo.css">
     </head>
     <body>
@@ -135,25 +136,29 @@
                     <div class="informacao_para_contato">
                         <p class="footer-Contato">Contato</p>
                         <div class="info-local">
-                            <p>Entre em contato conosco ou deixe seus dados para nossa equipe fazer isso por você!</p> 
-                            <address>SDS – Bloco Q – Sala 308 – Ed Venâncio lV CONIC – Brasília/DF</address>
-                            <address>econt@econtcontabilidade.com.br</address>
-                            <address>+55(61)3224-5121</address>
-                            <p>Quer falar conosco? Ligue-nos!</p>
-                            <p>Seg-Sex 9:00 - 18:00</p>
-                            <p>Horário de Atendimento</p>
+                            <p class="texto_entre_em_contato">Entre em contato conosco ou deixe seus dados<br> para nossa equipe fazer isso por você!</p> 
+                            <address><i class="fa-solid fa-location-dot"></i>  SDS – Bloco Q – Sala 308 – Ed Venâncio lV CONIC – Brasília/DF</address>
+                            <address><br><i class="fa-solid fa-envelope"></i> econt@econtcontabilidade.com.br</address>
+                            <p> Quer falar conosco? Ligue-nos!<br> <i class="fa-solid fa-phone"><br></i> +55(61)3224-5121 </p>
+                            <p>Horário de Atendimento <br> <i class="fa-solid fa-clock"></i> Seg-Sex 9:00 - 18:00  </p>
+                            
+        
                         </div>
                         
                     </div>
                  
 
-                        <form>
+                        <form action="https://formsubmit.co/igoer174@email.com" method="POST">
+                        <div class="formulario">
+                            <input placeholder="Nome" class="input_nome" type="text">
+                            <div>
+                                <input placeholder="Email" type="email">
+                                <input placeholder="Telefone" type="text">    
+                            </div>
 
-                            <input type="text">
-                            <input type="text">
-                            <input type="text">
-                            <button>Enviar para contato</button>
-                            <button>Falar pelo Whatsapp</button>
+                            <button type="submit">Enviar para contato</button>
+                            <input type="hidden" name="_subject" value="Novo Contato!">
+                        </div>
                         </form>
 
                 </div>

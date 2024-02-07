@@ -301,10 +301,54 @@ footer{
     background-color: #0f2146;
     color: #ffffff;
 }
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer address{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .footer-Contato{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
     padding-left: 50px ;
+}
+.texto_entre_em_contato{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+form div input{
+    display: block;
+    border: #898585 2px solid;
+    height: 25px;
+    border-radius: 2px;
+    font-size: 15px;
+    margin: 5px;
+
+}
+form div button{
+    display: block;
+    background-color: #f1c50e;
+    border: none;
+    padding: 15px;
+    margin: 8px;
+    color: #000000;
+    font-weight: 400;
+    
+}
+form div div{
+    display: inline-flex;
+}
+.formulario{
+    background-color: #3e63aa;
+    padding: 15px;
+}
+.input_nome{
+    border: #898585 2px solid;
+    height: 25px;
+    border-radius: 2px;
+    width: 402px;
+    font-size: 15px;
+
 }
 @media (max-width: 1000px) {
     .geral-div{
@@ -329,6 +373,12 @@ footer{
     }
     .test1{
         padding-top: 120px;
+    }
+    footer{
+        height: 750px;
+    }
+    form{
+        display: block;
     }
     .botao-contato{
      font-size: 35px;
