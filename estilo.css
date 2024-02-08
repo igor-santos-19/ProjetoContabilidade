@@ -7,7 +7,7 @@ body{
 .nav-header-a{
     float: right;
     text-align: center;
-    color: white;
+    color: #0f2146;
     margin: 16px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -23,9 +23,11 @@ body{
     border-color: #ccc;
 }
 .nav-header{
-    background-color:#213253;
+    background-color:rgb(231, 231, 231);
     padding: 8px;
     height: 80px;
+    padding-left: 25px;
+    
 }
 .nav-header.a{
     height: 20px;
